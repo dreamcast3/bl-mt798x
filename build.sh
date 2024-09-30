@@ -7,7 +7,7 @@ UBOOT_DIR=uboot-mtk-20230718-09eda825
 ATF_DIR=atf-20231013-0ea67d76a
 
 if [ -z "$SOC" ] || [ -z "$BOARD" ]; then
-	echo "Usage: SOC=[mt7981|mt7986] BOARD=<board name> MULTI_LAYOUT=[0|1] $0"
+	echo "Usage: SOC=[mt7981] BOARD=<wr30u> MULTI_LAYOUT=[1] $0"
 	echo "eg: SOC=mt7981 BOARD=360t7 $0"
 	echo "eg: SOC=mt7981 BOARD=wr30u MULTI_LAYOUT=1 $0"
 	echo "eg: SOC=mt7981 BOARD=cmcc_rax3000m-emmc $0"
